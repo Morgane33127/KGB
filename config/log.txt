@@ -1,0 +1,6 @@
+13-01-2024 18:47:32 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')' à la ligne 21
+13-01-2024 18:48:44 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')' à la ligne 21
+13-01-2024 18:52:18 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')' à la ligne 21
+13-01-2024 19:28:31 : SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect uuid value: '' for column `kgb`.`agents`.`id_a` at row 1
+14-01-2024 15:58:54 : SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'bc734b0c-9bee-44b7-ae34-a9ce6a875814' for column `kgb`.`missions`.`id_a` at row 1
+14-01-2024 16:00:53 : SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'spe_m' at row 1
