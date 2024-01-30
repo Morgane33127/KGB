@@ -1,6 +1,7 @@
 <?php
 
-class Admin {
+class Admin
+{
     private int $id_i;
     private string $prenom_g;
     private string $nom_g;
@@ -20,32 +21,32 @@ class Admin {
 
     public function getId()
     {
-        $this->id_i;
+        return $this->id_i;
     }
 
     public function getPrenom()
     {
-        $this->prenom_g;
+        return $this->prenom_g;
     }
 
     public function getNom()
     {
-        $this->nom_g;
+        return $this->nom_g;
     }
 
     public function getMail()
     {
-        $this->mail_g;
+        return $this->mail_g;
     }
 
     public function getPssd()
     {
-        $this->mdp_g;
+        return $this->mdp_g;
     }
 
     public function getDtCrea()
     {
-        $this->dt_crea;
+        return $this->dt_crea;
     }
 
     public function setId($id_i)
@@ -55,27 +56,26 @@ class Admin {
 
     public function setPrenom($prenom_g)
     {
-        $this->prenom_g=$prenom_g;
+        $this->prenom_g = $prenom_g;
     }
 
     public function setNom($nom_g)
     {
-        $this->nom_g=$nom_g;
+        $this->nom_g = $nom_g;
     }
 
     public function setMail($mail_g)
     {
-        $this->mail_g=$mail_g;
+        $this->mail_g = $mail_g;
     }
 
     public function setPssd($mdp_g)
     {
-        $this->mdp_g=$mdp_g;
+        $this->mdp_g = $mdp_g;
     }
 
     public function setDtCrea($dt_crea)
     {
-        $this->dt_crea=$dt_crea;
+        $this->dt_crea = $dt_crea;
     }
-
 }
