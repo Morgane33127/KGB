@@ -33,11 +33,11 @@ try {
     $pdo->exec("INSERT INTO lbl (code_lbl, lbl) VALUES ('FA', 'Echec')") &&
 
     $pdo->exec("INSERT INTO agents (id_a, prenom_a, nom_a, dt_naissance_a, identification_code_a, nationalite_a, spe_a, mdp_a, profil_a, sexe_a, age_a, statut_a) 
-    VALUES ('$uuid1', 'Samantha', 'Simpson', '1995-06-13', 'G8myV3m9', 'EU', 'IN', 'bMLrX265b2Zrh3', '', 'F', 28, '03')") &&
+    VALUES ('$uuid1', 'Samantha', 'Simpson', '1995-06-13', 'G8myV3m9', 'RU', 'IN', 'bMLrX265b2Zrh3', '', 'F', 28, '03')") &&
     $pdo->exec("INSERT INTO agents (id_a, prenom_a, nom_a, dt_naissance_a, identification_code_a, nationalite_a, spe_a, mdp_a, profil_a, sexe_a, age_a, statut_a) 
-    VALUES ('$uuid2', 'Clover', 'Ewing', '1999-01-18', '4H7j2Gvf', 'EU', 'AS', 'b263r2rZL5bXMh', '', 'F', 24, '01')") &&
+    VALUES ('$uuid2', 'Clover', 'Ewing', '1999-01-18', '4H7j2Gvf', 'RU', 'AS', 'b263r2rZL5bXMh', '', 'F', 24, '01')") &&
     $pdo->exec("INSERT INTO agents (id_a, prenom_a, nom_a, dt_naissance_a, identification_code_a, nationalite_a, spe_a, mdp_a, profil_a, sexe_a, age_a, statut_a) 
-        VALUES ('$uuid3', 'Alexandra', 'Vasquez', '1998-10-24', 'u55PgTq4', 'EU', 'IN', 'HyxkY3K27rdH86', '', 'F', 25, '01')") &&
+        VALUES ('$uuid3', 'Alexandra', 'Vasquez', '1998-10-24', 'u55PgTq4', 'RU', 'IN', 'HyxkY3K27rdH86', '', 'F', 25, '01')") &&
 
     $pdo->exec("INSERT INTO cibles (nom_c, prenom_c, dt_naissance_c, identification_code_c, nationalite_c, profil_c, sexe_c, age_c) 
 VALUES ('Doe', 'John', '1980-01-04', 'syY697Py', 'FR', '', 'H', 44)") &&
