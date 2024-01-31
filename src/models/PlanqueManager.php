@@ -66,7 +66,7 @@ class PlanqueManager
   public function listePlanques(): array
   {
     require_once 'Planque.php';
-    $stmt = $this->pdo->query("SELECT id_p, adresse_p FROM Planques");
+    $stmt = $this->pdo->query("SELECT id_p, adresse_p FROM planques");
     $planques = $stmt->fetchAll(PDO::FETCH_ASSOC);
     if (count($planques) > 0) {
       return ($planques);
